@@ -1,0 +1,143 @@
+$text-color: #f4f4f4;
+$back-color: #112233;
+$dark-text: #333;
+$btn-color: rgb(50, 205, 50);
+
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $back-color;
+    color: $text-color;
+    height: 15vh;
+    border-bottom: 1px solid $dark-text;
+    z-index: 999;
+  }
+  
+  .intro {
+    background-color: $back-color;
+    color: $text-color;
+    height: 85vh;
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: left;
+    
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+
+    .intro-con {
+      background-image: linear-gradient(0%, #3f6183 100%, #112233 );
+    }
+  
+    h1 {
+      text-align: center;
+      color: $text-color;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  
+    p {
+      text-align: center;
+      color: $btn-color;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+  
+  .nav-scrolled {
+    color: $dark-text;
+    background-color: $text-color;
+  
+    nav ul li a {
+      color: $dark-text;
+      transition: hover 1s ease-in-out;
+  
+      &:hover {
+        text-decoration: underline $dark-text;
+      }
+
+
+  
+    }
+
+    .btn {
+
+      &:hover {
+        background-color: $dark-text;
+        color: $text-color !important;
+      }
+    }
+    
+  }
+  
+  .logo {
+      font-weight: 900;
+      font-size: 0.8rem;
+      color: inherit;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  
+  .nav-list {
+      list-style: none;
+      display: flex;
+
+
+  }
+  
+  .nav-item {
+      display: inline-block;
+      padding: 1rem;
+      text-transform: uppercase;
+      transition: all ease-in-out 500ms;
+  
+  
+      a {
+        text-decoration: none;
+        color: $text-color;
+
+        &:hover {
+          text-decoration: underline $text-color;
+        }
+      }
+  }
+  
+  .btn {
+    padding: 1rem 1.5rem;
+    color: $dark-text !important;
+    background-color: $btn-color;
+    border-radius: 1.5rem;
+    transition: all ease-in-out 100ms;
+  
+    &:hover {
+      background-color: $text-color;
+      color: $dark-text;
+    }
+  }
+  
+  .gap {
+    height: 100vh;
+  }
+  
+
+  @media screen and (max-width : 700px) {
+    .nav-dis {
+      display: none;
+    }
+
+    
+  }

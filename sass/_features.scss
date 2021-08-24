@@ -1,0 +1,64 @@
+
+
+$text-color: #f4f4f4;
+$back-color: #112233;
+$dark-text: #333;
+$btn-color: limegreen;
+
+.features {
+    background-color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // insert beautiful background images
+    background-image: url(../images/blob-scene-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        max-width: 800px;
+
+
+        li {
+            flex: 1 1 320px;
+            margin: 1.5rem;
+            border: 5px solid $dark-text;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: auto;
+            background-color: $dark-text;
+            border-radius: 1rem;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+            img {
+                padding: 1rem .5rem;
+                width: 70px;
+            }
+
+            h2 {
+                text-align: center;
+                color: $dark-text;
+                padding: 1rem .5rem;
+            }
+
+            p {
+                text-align: left;
+                color: $dark-text;
+                padding: 1rem .5rem;
+            }
+        }
+    }
+}

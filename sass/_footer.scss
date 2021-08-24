@@ -1,0 +1,36 @@
+
+$text-color: #f4f4f4;
+$back-color: #112233;
+$dark-text: #333;
+$btn-color: limegreen;
+
+.footer-con {
+    display: flex;
+    justify-content: center;
+    background-color: $back-color;
+    margin-top: 2rem;
+    margin: 1rem;
+    padding: 2rem 3rem;
+    
+}
+.footer-con ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 980px;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    li {
+        margin: 1rem;
+        a {
+            color: $text-color;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+

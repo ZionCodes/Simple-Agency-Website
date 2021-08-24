@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+$text-color: #f4f4f4;
+$back-color: #112233;
+$dark-text: #333;
+$btn-color: limegreen;
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+@import 'features';
+@import 'navbar';
+@import 'features';
+@import 'service';
+@import 'contact';
+@import 'footer';
+
+
+
+

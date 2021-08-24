@@ -1,0 +1,446 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.features {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/blob-scene-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  max-width: 800px;
+}
+
+.features ul li {
+  flex: 1 1 320px;
+  margin: 1.5rem;
+  border: 5px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  background-color: #333;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.features ul li img {
+  padding: 1rem .5rem;
+  width: 70px;
+}
+
+.features ul li h2 {
+  text-align: center;
+  color: #333;
+  padding: 1rem .5rem;
+}
+
+.features ul li p {
+  text-align: left;
+  color: #333;
+  padding: 1rem .5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #112233;
+  color: #f4f4f4;
+  height: 15vh;
+  border-bottom: 1px solid #333;
+  z-index: 999;
+}
+
+.intro {
+  background-color: #112233;
+  color: #f4f4f4;
+  height: 85vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-position: left;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.intro .intro-con {
+  background-image: linear-gradient(0%, #3f6183 100%, #112233);
+}
+
+.intro h1 {
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.intro p {
+  text-align: center;
+  color: limegreen;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-scrolled {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.nav-scrolled nav ul li a {
+  color: #333;
+  transition: hover 1s ease-in-out;
+}
+
+.nav-scrolled nav ul li a:hover {
+  text-decoration: underline #333;
+}
+
+.nav-scrolled .btn:hover {
+  background-color: #333;
+  color: #f4f4f4 !important;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: inherit;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: all ease-in-out 500ms;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.nav-item a:hover {
+  text-decoration: underline #f4f4f4;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  color: #333 !important;
+  background-color: limegreen;
+  border-radius: 1.5rem;
+  transition: all ease-in-out 100ms;
+}
+
+.btn:hover {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.gap {
+  height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-dis {
+    display: none;
+  }
+}
+
+.features {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/blob-scene-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  max-width: 800px;
+}
+
+.features ul li {
+  flex: 1 1 320px;
+  margin: 1.5rem;
+  border: 5px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  background-color: #333;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.features ul li img {
+  padding: 1rem .5rem;
+  width: 70px;
+}
+
+.features ul li h2 {
+  text-align: center;
+  color: #333;
+  padding: 1rem .5rem;
+}
+
+.features ul li p {
+  text-align: left;
+  color: #333;
+  padding: 1rem .5rem;
+}
+
+.service ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  border-top: 0.5rem solid limegreen;
+}
+
+.service ul li {
+  margin: 2rem 3rem;
+  width: 50%;
+}
+
+.service ul li img {
+  max-height: 500px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.carousel h2 {
+  color: #333;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.carousel h2 .red {
+  color: #FE3F69;
+}
+
+.carousel h2 .blue {
+  color: #03A4EF;
+}
+
+.carousel p {
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 1rem;
+}
+
+.carousel p .red {
+  color: #FE3F69;
+}
+
+.carousel p .blue {
+  color: #03A4EF;
+}
+
+.carousel ul {
+  list-style-type: none;
+  color: #f4f4f4;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel ul li {
+  background-color: limegreen;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-style: oblique;
+}
+
+@media screen and (max-width: 800px) {
+  .service ul {
+    flex-direction: column;
+  }
+  .service ul li {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
+.contact {
+  background-image: url(../images/circle-scatter-haikei.svg);
+  background-size: cover;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 980px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.contact ul li {
+  flex: 1 1 320px;
+  margin: .5rem;
+}
+
+.contact ul .intro-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.contact ul .intro-contact h2 {
+  font-size: 2rem;
+  color: #f4f4f4;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+
+.contact ul .intro-contact p {
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+
+.contact ul .intro-contact .social {
+  margin-top: 1rem;
+  padding: .5rem;
+  align-self: flex-start;
+}
+
+.contact ul form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: .5rem;
+}
+
+.contact ul form input {
+  width: 100%;
+  line-height: 1.6;
+  padding: .5rem;
+  margin: .5rem;
+  border-radius: 15px;
+  border: none;
+}
+
+.contact ul form textarea {
+  width: 100%;
+  margin: .5rem;
+  border-radius: 15px;
+  border: none;
+  padding: .5rem;
+}
+
+.contact ul form button {
+  align-self: flex-start;
+  padding: .5rem 1rem;
+  background-color: #112233;
+  color: #f4f4f4;
+  border: none;
+  font: 1.4rem;
+  margin: .5rem;
+  transition: 1s all ease-in-out;
+  border: 0.1px solid #f4f4f4;
+}
+
+.contact ul form button:hover {
+  background-color: #254668;
+}
+
+@media screen and (max-width: 600px) {
+  .contact ul {
+    flex-direction: column;
+  }
+}
+
+.footer-con {
+  display: flex;
+  justify-content: center;
+  background-color: #112233;
+  margin-top: 2rem;
+  margin: 1rem;
+  padding: 2rem 3rem;
+}
+
+.footer-con ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 980px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.footer-con ul li {
+  margin: 1rem;
+}
+
+.footer-con ul li a {
+  color: #f4f4f4;
+  text-decoration: underline;
+}
+
+.footer-con ul li a:hover {
+  text-decoration: none;
+}
