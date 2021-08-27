@@ -178,6 +178,9 @@ header {
   .nav-dis {
     display: none;
   }
+  .nav-item {
+    margin-right: 5px !important;
+  }
 }
 
 .features {
